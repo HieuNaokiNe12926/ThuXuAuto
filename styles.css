@@ -1,0 +1,14 @@
+/*
+  File này dùng để chứa các tùy chỉnh CSS riêng,
+  không thuộc về Tailwind CSS hoặc khi bạn cần viết các style phức tạp.
+*/
+
+/* Ví dụ: thêm hiệu ứng chuyển động mượt mà cho toàn trang */
+body {
+    transition: background-color 0.3s ease;
+}
+
+/* Hiệu ứng mượt mà khi di chuột vào các mục liên hệ */
+#lien-he .group > div, #lien-he .group > h4 {
+    transition: all 0.2s ease-in-out;
+}
